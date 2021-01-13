@@ -31,3 +31,7 @@ This is a demo of a simple React/Typescript web site.
   * components - definitions for custom components
   * models - If we get fancy and need to keep user state, keep it here
   * pages - Pages are components where menu items land
+
+## Deploy the Site
+
+Easy, just run `npm run deploy` and whatever is on your machine will show up on the public site. 
