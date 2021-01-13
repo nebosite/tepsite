@@ -52,7 +52,7 @@ extends React.Component<{appModel?: AppModel}>
                         <Route exact path={`${process.env.PUBLIC_URL}/parents`}><ParentPage /></Route>
                         <Route exact path={`${process.env.PUBLIC_URL}/planaria`}><PlanariaPage /></Route>
                         <Route exact path={`${process.env.PUBLIC_URL}/home`}><HomePage /></Route>
-                        <Route ><Redirect to="/home" /> </Route>
+                        <Route ><Redirect to="/tepsite/home" /> </Route>
                     </Switch>
                 </div>
             </div>)
