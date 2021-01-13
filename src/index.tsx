@@ -4,10 +4,9 @@ import ReactDOM from 'react-dom';
 import { createBrowserHistory } from 'history';
 import { AppModel } from './models/AppModel';
 import { Provider } from 'mobx-react';
-import { Router } from "react-router-dom";
+import { HashRouter, Router } from "react-router-dom";
 import AppRoot from './AppRoot';
 
-const history = createBrowserHistory();
 const theAppModel = new AppModel();
 
 ReactDOM.render(
@@ -18,9 +17,9 @@ ReactDOM.render(
 
     // The AppRoot is the component which frames the menu and pages
     <Provider appModel={theAppModel}> 
-         <Router history={history}>
+         <HashRouter basename='/' >
                  <AppRoot />
-         </Router>
+         </HashRouter>
     </Provider>,
     document.getElementById("root")
 );  

@@ -43,7 +43,8 @@ extends React.Component<{appModel?: AppModel}>
                                 <br/><NavLink className="navLink" activeClassName="navLinkSelected" to={`${process.env.PUBLIC_URL}/parents`}>For Parents</NavLink>
                                 <br/><NavLink className="navLink" activeClassName="navLinkSelected" to={`${process.env.PUBLIC_URL}/planaria`}>For Planaria</NavLink>
                             </nav>              
-                        </div>                        
+                        </div>    
+                        22                    
                     </div>
                 </div>
                 <div className="pageContainer">
